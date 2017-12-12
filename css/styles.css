@@ -1,0 +1,42 @@
+.colorFooterContainer{
+    background: #E8663C;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    margin:  0px 10px 0px 10px;
+    position: relative;
+    width: 80%;
+}
+.colorFooterSimple {
+    background: #EFB3A1;
+    height: 90%;
+    position: relative;
+    width: 20%;
+}
+.footer{
+    display: flex; 
+    height: 40%;
+    position: fixed;
+    width: 100%;
+}
+.infoFooter{
+    color: white;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+    width: 30%;
+}
+.infoFooter .textColorChange{
+    display: inline;
+    color: #F2835B
+}
+.infoFooter .text{
+    display: inline;
+    color: white;
+}
+.titleFooter {
+    font-weight: bold;
+}
+.textColorOrange {
+    color: #F2835B;
+}

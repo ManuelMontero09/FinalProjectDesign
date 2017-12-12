@@ -1,0 +1,145 @@
+/********************************************************************************************************************/
+
+.container{
+    width: 100%;
+    /*max-width: 62.5rem;*/
+    /*margin: auto;*/
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*********************************************************************************************************************/
+
+header{
+    background: white;
+    width: 95%;
+    padding: 15px;
+    max-width: 62.5rem;
+    font-size: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   /* border: 01px solid black;*/
+}
+
+header nav a{
+    background: #c0392b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+header nav{
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/*********************************************************************************************************************/
+  
+.main{
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: 02px solid black;*/
+}
+
+.image-principal{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.imagen-costado-principal{
+    margin: 0px 10px 0px 10px;
+}
+
+/*********************************************************************************************************************/
+
+.shape-main-principal{
+    margin: 10px 0px 0px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shape-main-1{
+    margin-right: 30px;
+}
+
+.shape-main-2{
+    margin-right: 30px;
+}
+
+.shape-main-3{
+    margin-right: 30px;
+}
+
+.shape-main-principal h2{
+    color: #F2835B;
+}
+
+.shape-main-principal p{
+    color: #232323;
+}
+
+/**********************************************FOOTER*****************************************************************/
+
+.colorFooterContainer{
+    background: #E8663C;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    margin:  0px 10px 0px 10px;
+    position: relative;
+    width: 100%;
+}
+.colorFooterSimple {
+    background: #EFB3A1;
+    height: 90%;
+    position: relative;
+    width: 20%;
+}
+.footer{
+    display: flex; 
+    height: 40%;
+    position: absolute;
+    width: 100%;
+}
+.infoFooter{
+    color: white;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+    width: 30%;
+
+
+}
+.infoFooter .textColorChange{
+    display: inline;
+    color: #F2835B
+}
+.infoFooter .text{
+    display: inline;
+    color: white;
+}
+.titleFooter {
+    font-weight: bold;
+}
+.textColorOrange {
+    color: #F2835B;
+}
